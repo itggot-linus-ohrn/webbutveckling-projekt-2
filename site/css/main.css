@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper{
-    height: 400vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -100,6 +100,62 @@ a{
     font-weight: 900;
 }
 
+p{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.counter{
+    display: flex;
+    background-color: green;
+    width: 100vw;
+    height: 0vh;
+    display: grid;
+    grid-template-areas: 
+    "days hours"
+    "minutes seconds";
+    text-align: center;
+    font-size: 60px;
+}
+
+.day{
+    background-color: aqua;
+    grid-template: days; 
+    /* position: absolute;
+    left: 5vw;
+    top: 25vh; */
+    height: 150px;
+    width: 150px;
+}
+
+.hour{
+    background-color: honeydew;
+    grid-template: 
+    /* position: absolute;
+    right: 5vw;
+    top: 25vh; */
+    height: 150px;
+    width: 150px;
+}
+
+.minute{
+    background-color: hotpink;
+    position: absolute;
+    left: 5vw;
+    top: 50vh;
+    height: 150px;
+    width: 150px;
+}
+
+.second{
+    background-color: blueviolet;
+    position: absolute;
+    right: 5vw;
+    top: 50vh;
+    height: 150px;
+    width: 150px;
+}
 
 @media only screen and (min-device-width: 1025px){
     nav{

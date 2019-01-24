@@ -9,52 +9,51 @@
     <title>Document</title>
     <script src="js/main.js"></script>
 </head>
-<body>
-        <div class="sidebar">
-                <i class="medium material-icons" id="menubutton" onclick="doStuff()">menu</i>
-            <ul>
-                <li>
-                <a href="index.html">Home</a>
-                </li>
-
-                <li>
-                <a href="traditions.html">Traditions</a>
-                </li>
-
-                <li>
-                <a href="food.html">Food</a>
-                </li>
-
-                <li>
-                <a href="creatures.html">Creatures</a>
-                </li>
-                <li>
-                <a href="about.html">About</a>
-                </li>
-            </ul>
-        </div>
+<body onload="countdown()">
+    <div class="sidebar">
+        <i class="medium material-icons" id="menubutton" onclick="doStuff()">menu</i>
+        <ul>
+            <li>
+                <a href="index.html">Hem</a>
+            </li>
+            
+            <li>
+                <a href="traditions.html">Traditioner</a>
+            </li>
+            
+            <li>
+                <a href="food.html">Mat</a>
+            </li>
+            
+            <li>
+                <a href="creatures.html">Varelser</a>
+            </li>
+            <li>
+                <a href="about.html">Om oss</a>
+            </li>
+        </ul>
+    </div>
     <div class="wrapper">
-
+        
         <div class="sidebar-fade"></div>
         <div class="header">
-            <h2>Christmas in sweden</h2>
+            <h2>Jul i Sverige</h2>
         </div>
         <nav>
-            <a href="" class="traditions bild"><h3>Traiditions</h3></a>
-            <a href="" class="food bild"><h3>Food</h3></a>
-            <a href="" class="creatures bild"><h3>Creatures</h3></a>
+            <a href="" class="traditions bild"><h3>Traiditioner</h3></a>
+            <a href="" class="food bild"><h3>Mat</h3></a>
+            <a href="" class="creatures bild"><h3>Varerlser</h3></a>
         </nav>
-        <div class="main"></div>
-        <div class="counter" id="counter" onload="countdown()">
-            <div class="day"><p id="days"></p></div>
-            <div class="hour"><p id="hours"></p></div>
-            <div class="minute"><p id="minutes"></p></div>
-            <div class="second"><p id="seconds"></p></div>
-            <p>Until Donald the duck christmas special</p>
+        <div class="main">
+            <div class="counter" id="counter">
+                <div class="day box"><p id="days"></p></div>
+                <div class="hour box"><p id="hours"></p></div>
+                <div class="minute box"><p id="minutes"></p></div>
+                <div class="second box"><p id="seconds"></p></div>
+                <p class="text">Till Kalle anka julspecial!</p>
+            </div>
         </div>
-        <div class="footer"></div>
-
     </div>
-
+    
 </body>
 </html>

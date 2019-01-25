@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x:hidden;
 }
 
 .wrapper{
@@ -251,27 +252,27 @@ position: relative;
 }
 
 .klapptext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .luciatext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .grantext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .gloggtext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .tomtentext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
@@ -310,7 +311,7 @@ position: relative;
     width: 100vw;
     position: absolute;
     background-color: whitesmoke;
-    top: -100vh;
+    top: -500vh;
     transition: 0.2s;
     z-index: 10;
 }
@@ -353,37 +354,37 @@ position: relative;
 }
 
 .kotttext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .korvtext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .skinkatext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .laxtext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .silltext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 12;
 }
 
 .jansonstext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 13;
 }
 
 .grottext-activate{
-    top: 17vh;
+    top: 16vh;
     z-index: 13;
 }
 
@@ -422,64 +423,102 @@ position: relative;
     z-index: 13;
 }
 
+.tomt{
+    background-image: url("/img/tomten.jpg")
+}
+
+.bock{
+    background-image: url("/img/julbock.jpg")
+}
+
+.troll{
+    background-image: url("/img/troll.jpg")
+}
+
+.vatt{
+    background-image: url("/img/vättar.jpg")
+}
+
+.alv{
+    background-image: url("/img/alver.jpg")
+}
 
 @media only screen and (min-device-width: 1025px){
-    nav{
-        display: block;
-        background-color: rgba(25, 25, 25, 0.5);
-        height: 15vh;
-        width: 100vw;
-        position: sticky;
-        margin-top: -23%;
-        top: 0;
+    .wrapbox{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
-        z-index: 3;
     }
-    
-    a{
-        background-color: rgba(200,200,200,1);
-        width: 10vw;
-        height: 5vh;
-        margin-left: 2vw;
-        position: relative;
-        border-radius: 10%;
-        top: 60%;
-        left: 0;
+
+    .boxen{
+        height: 500px;
+        width: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 4;
-        text-decoration: none;
-    }
-    a:hover{
-        border-style: solid;
-        border-width: 5px;
-        border-color: rgba(0,0,0,1);
-        
-    }
-    
-    h3 {
-        color: black;
-        font-size: 1.5em;
-    }
-    .traditions {
-        background: url('../img/traditions.jpg');
-        
+        position: static;
+        margin: 100px;
+        box-shadow: 1px 5px 9px black;
+        border: 0;
+        border-radius: 5px;
+        padding: 10px;
     }
 
-    .food {
-        background: url('../img/food.jpg');
+    .header{
+        position: relative;
     }
 
-    .creatures {
-        background: url('../img/creatures.jpg')
+    .wrapperfood{
+        height: 315vh;
     }
 
-    .bild{
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 100px;
-        width: 150px;
+    .mainfood{
+        top: -115vh;
+    }
+
+    .wrappertradition{
+        height: 250vh;
+    }
+
+    .maintradition{
+        top: -82.5vh;
+    }
+
+    .wrappercreatures{
+        height: 250vh;
+    }
+
+    .maincreatures{
+        top: -82.5vh;
+    }
+
+    .boxen:hover{
+        box-shadow: 1px 1px 25px black;
+
+    }
+
+    .counter{
+        height: 95vh;
+        width: 100vw;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -10vh;
+    }
+
+    .box{
+        height: 200px;
+        width: 300px;
+        margin: 100px 200px 0px 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3{
+        margin-top: 0px;
+        flex-basis: 100%;
     }
 }

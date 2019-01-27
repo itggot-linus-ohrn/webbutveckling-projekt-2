@@ -48,7 +48,9 @@ function countdown(event){
 
 function klapp(event){
     let klapptext = document.querySelector(".klapptext")
+    let klapp = document.querySelector(".klapp")
 
+    klapp.classList.toggle("klapp-activate")
     klapptext.classList.toggle("klapptext-activate")
 
 }
@@ -89,7 +91,9 @@ function tomten(event){
 // mat
 function kott(event){
     let kotttext = document.querySelector(".kotttext")
+    let kott = document.querySelector(".kott")
 
+    kott.classList.toggle("kott-activate")
     kotttext.classList.toggle("kotttext-activate")
 
 }

@@ -16,7 +16,7 @@ body {
     background: linear-gradient(135deg, rgb(255, 255, 255), #EBEBEB);
     filter: blur(0px);
     -webkit-filter: blur(0px);
-
+    
 }
 
 .wrapper-activate{
@@ -83,7 +83,7 @@ i{
 
 .activate{
     left: 0;
-
+    
 }
 
 ul{
@@ -150,7 +150,7 @@ p{
     /* position: absolute;
     left: 5vw;
     top: 25vh; */
-
+    
     
 }
 
@@ -159,7 +159,7 @@ p{
     /* position: absolute;
     right: 5vw;
     top: 25vh; */
-
+    
     
 }
 
@@ -168,7 +168,7 @@ p{
     /* position: absolute;
     left: 5vw;
     top: 50vh; */
-
+    
     
 }
 
@@ -177,7 +177,7 @@ p{
     /* position: absolute;
     right: 5vw;
     top: 50vh; */
-
+    
     
 }
 
@@ -190,7 +190,7 @@ p{
 }
 
 .wrapbox{
-position: relative;
+    position: relative;
 }
 
 .boxen {
@@ -212,28 +212,28 @@ position: relative;
 /* traditioner */
 
 .klapp{
-    background-image: url("/img/julklappar.jpg");
+    background-image: url("../img/julklappar.jpg");
     top: 0;
-    z-index: 13;
+    z-index: 12;
 }
 
 .lucia{
-    background-image: url("/img/Lucia.jpg");
+    background-image: url("../img/Lucia.jpg");
     top: 17vh;
 }
 
 .gran{
-    background-image: url("/img/julgran.jpg");
+    background-image: url("../img/julgran.jpg");
     top: 34vh;
 }
 
 .glogg{
-    background-image: url("/img/glogg.jpg");
+    background-image: url("../img/glogg.jpg");
     top: 51vh;
 }
 
 .tomten{
-    background-image: url("/img/tomten.jpg");
+    background-image: url("../img/tomten.jpg");
     top: 68vh;
 }
 
@@ -318,38 +318,38 @@ position: relative;
 
 
 .kott{
-    background-image: url("/img/kottbullar.jpg");
+    background-image: url("../img/kottbullar.jpg");
     top: 0;
-    z-index: 13;
+    z-index: 12;
 }
 
 .korv{
-    background-image: url("/img/korv.jpg");
+    background-image: url("../img/korv.jpg");
     top: 17vh;
 }
 
 .skinka{
-    background-image: url("/img/julskinka.jpg");
+    background-image: url("../img/julskinka.jpg");
     top: 34vh;
 }
 
 .lax{
-    background-image: url("/img/lax.jpg");
+    background-image: url("../img/lax.jpg");
     top: 51vh;
 }
 
 .sill{
-    background-image: url("/img/sill.jpg");
+    background-image: url("../img/sill.jpg");
     top: 68vh;
 }
 
 .jansons{
-    background-image: url("/img/jansons.jpg");
+    background-image: url("../img/jansons.jpg");
     top: 85vh;
 }
 
 .grot{
-    background-image: url("/img/grot.jpg");
+    background-image: url("../img/grot.jpg");
     top: 102vh;
 }
 
@@ -424,33 +424,33 @@ position: relative;
 }
 
 .tomt{
-    background-image: url("/img/tomten.jpg")
+    background-image: url("../img/tomten.jpg")
 }
 
 .bock{
-    background-image: url("/img/julbock.jpg")
+    background-image: url("../img/julbock.jpg")
 }
 
 .troll{
-    background-image: url("/img/troll.jpg")
+    background-image: url("../img/troll.jpg")
 }
 
 .vatt{
-    background-image: url("/img/vättar.jpg")
+    background-image: url("../img/vättar.jpg")
 }
 
 .alv{
-    background-image: url("/img/alver.jpg")
+    background-image: url("../img/alver.jpg")
 }
 
-@media only screen and (min-device-width: 1025px){
+@media screen and (min-device-width: 1025px){
     .wrapbox{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    
     .boxen{
         height: 500px;
         width: 500px;
@@ -464,40 +464,40 @@ position: relative;
         border-radius: 5px;
         padding: 10px;
     }
-
+    
     .header{
         position: relative;
     }
-
+    
     .wrapperfood{
         height: 315vh;
     }
-
+    
     .mainfood{
         top: -115vh;
     }
-
+    
     .wrappertradition{
         height: 250vh;
     }
-
+    
     .maintradition{
         top: -82.5vh;
     }
-
+    
     .wrappercreatures{
         height: 250vh;
     }
-
+    
     .maincreatures{
         top: -82.5vh;
     }
-
+    
     .boxen:hover{
         box-shadow: 1px 1px 25px black;
-
+        
     }
-
+    
     .counter{
         height: 95vh;
         width: 100vw;
@@ -507,7 +507,7 @@ position: relative;
         position: relative;
         top: -10vh;
     }
-
+    
     .box{
         height: 200px;
         width: 300px;
@@ -515,10 +515,152 @@ position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 11;
     }
-
+    
     h3{
         margin-top: 0px;
         flex-basis: 100%;
     }
+    
+    .textbox{
+        height: 49vh;
+        width: 50vw;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        top: 10.5vh;
+    }
+
+    .textright{
+        right: -1000vw;
+    }
+    .textleft{
+        left:-1000vw;
+    }
+    
+    .klapptext-activate{
+        top: 10.5vh;
+        right: 4vw;
+        z-index: 12;
+    }
+    
+    
+    .luciatext-activate{
+        top: 10.5vh;
+        z-index: 12;
+        left: 4vw;
+    }
+    
+    .grantext-activate{
+        top: 84.75vh;
+        z-index: 12;
+        right: 4vw;
+    }
+    
+    .gloggtext-activate{
+        top: 84.75vh;
+        z-index: 12;
+        left: 4vw;
+    }
+    
+    .tomtentext-activate{
+        top: 159vh;
+        z-index: 12;
+        right: 4vw;
+    }
+
+    .klapp-activate{
+        z-index: 13;
+    }
+    
+    .lucia-activate{
+        z-index: 13;
+    }
+    
+    .gran-activate{
+        z-index: 13;
+    }
+    
+    .glogg-activate{
+        z-index: 13;
+    }
+
+    .tomten{
+        top: 148.5vh;
+
+    }
+    
+    .tomten-activate{
+        position: absolute;
+        top: 148.5vh;
+        z-index: 13;
+        right: 50vw;
+    }
+     /* mat */
+
+    .foodtextbox{
+        height: 49vh;
+        width: 50vw;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        top: 10.5vh;
+     }
+     .kotttext-activate{
+        top: 10.5vh;
+        right: 4vw;
+        z-index: 12;
+    }
+    
+    .korvtext-activate{
+        top: 10.5vh;
+        left: 4vw;
+        z-index: 12;
+    }
+    
+    .skinkatext-activate{
+        top: 84.75vh;
+        z-index: 12;
+        right: 4vw;
+    }
+    
+    .laxtext-activate{
+        top: 84.75vh;
+        z-index: 12;
+        left: 4vw;
+    }
+    
+    .silltext-activate{
+        top: 159vh;
+        z-index: 12;
+        right: 4vw;
+    }
+    
+    .jansonstext-activate{
+        top: 159vh;
+        z-index: 12;
+        left: 4vw;
+    }
+    
+    .grottext-activate{
+        top: 233.5vh;
+        z-index: 12;
+        right: 4vw;
+    }
+
+    .kott-activate{
+        z-index: 13;
+    }
+
+    .grot-activate{
+        position: absolute;
+        right: 50vw;
+        top: 222.75vh;
+    }
+
+    .grot{
+        top: 222.75vh;
+    }
+
 }
